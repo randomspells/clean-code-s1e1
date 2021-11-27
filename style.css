@@ -1,16 +1,16 @@
 /* Style Reset */
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 /* Basic Style */
@@ -164,14 +164,14 @@ input,button{
 /* Edit Task */
 
 .task .new-name {
-  display:none
+  display: none
 }
 
 .edit-mode .new-name {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .name {
-  display:none;
+  display: none;
 }
