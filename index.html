@@ -7,7 +7,7 @@
           rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <div class="header">
       <img class="infographic" src="./eisenhower-matrix.jpg">
       <a class="details"
@@ -20,7 +20,7 @@
         <label class="title main-title" for="new-task">Add Item</label>
         <div class="row">
           <input class="new-name" id="new-task" type="text">
-          <button class="add">Add</button>
+          <button class="btn add">Add</button>
         </div>
       </p>
       <h3 class="title">Todo</h3>
@@ -29,15 +29,15 @@
           <input class="is-complete" type="checkbox">
           <label class="name">Pay Bills</label>
           <input class="new-name" type="text">
-          <button class="edit">Edit</button>
-          <button class="delete"><img src="./remove.svg"></button>
+          <button class="btn edit">Edit</button>
+          <button class="btn delete"><img class="delete-icon" src="./remove.svg"></button>
         </li>
         <li class="task edit-mode">
           <input class="is-complete" type="checkbox">
           <label class="name">Go Shopping</label>
           <input class="new-name" type="text" value="Go Shopping">
-          <button class="edit">Save</button>
-          <button class="delete"><img src="./remove.svg"></button>
+          <button class="btn edit">Save</button>
+          <button class="btn delete"><img class="delete-icon" src="./remove.svg"></button>
         </li>
       </ul>
       <h3 class="title">Completed</h3>
@@ -46,8 +46,8 @@
           <input class="is-complete" type="checkbox" checked>
           <label class="name">See the Doctor</label>
           <input class="new-name" type="text">
-          <button class="edit">Edit</button>
-          <button class="delete"><img src="./remove.svg"></button>
+          <button class="btn edit">Edit</button>
+          <button class="btn delete"><img class="delete-icon" src="./remove.svg"></button>
         </li>
       </ul>
     </div>
