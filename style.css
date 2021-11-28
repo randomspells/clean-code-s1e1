@@ -51,6 +51,10 @@ button {
   margin: 0 auto 0;
 }
 
+.main-section {
+  margin: 1em 0;
+}
+
 .name,
 .new-name {
   width: 56%;
